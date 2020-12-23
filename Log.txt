@@ -2,3 +2,4 @@ December 6 2020 at 2:35 Oppened my game code so everybody can see and use it or 
 
 December 17 2020 at 8:25 Posted updated Actor.cs (not perfect still working on public void EnemyAI)
 
+December 22 2020 at 7:24 Updated Enemy script and made it a NavMesh agent. 
