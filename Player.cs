@@ -1,4 +1,5 @@
-﻿using System.Collections;
+using System.Diagnostics;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
@@ -17,13 +18,11 @@ public class Player : Actor
         Move();
     }
 
-    void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("AttackScene");
         }
-        else
-            Debug.Log("Not Colliding");
     }
 }
