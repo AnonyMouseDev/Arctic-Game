@@ -33,6 +33,11 @@ public class Enemy : Actor
 
     void Update()
     {
+        
+    }
+
+    void FixedUpdate()
+    {
         origin = transform.position;
 
         colliderHit = Physics2D.CircleCast(origin, radius, direction, distance, playerLayer);
@@ -43,9 +48,3 @@ public class Enemy : Actor
             agent.SetDestination(player.position);
         }
     }
-
-    void FixedUpdate()
-    {
-            
-    }
-}
