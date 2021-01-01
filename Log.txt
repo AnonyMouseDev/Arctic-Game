@@ -5,3 +5,5 @@ December 17 2020 at 8:25 Posted updated Actor.cs (not perfect still working on p
 December 22 2020 at 7:24 Updated Enemy script and made it a NavMesh agent. 
 
 December 28 2020 at 12:51 Updated the Player script to make it work with everything. 
+
+January 1 2021 at 11:22 Did some minor tweaking to the Enemy.cs
